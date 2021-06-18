@@ -1,66 +1,69 @@
-import React, { Component } from 'react'
-import 'bootstrap/dist/css/bootstrap.css';
-// import Container from 'react-bootstrap/Container';
-//  import  Row from 'react-bootstrap/Row';
-//  import Col from 'react-bootstrap/Col';
-import Video from './backgroundvideo.mp4';
-
+ import 'bootstrap/dist/css/bootstrap.css';
+import Container from 'react-bootstrap/Container'
+// import Row from 'react-bootstrap/Row';
+// import Col from 'react-bootstrap/Col';
 import './App.css';
 
+function App() {
+  return (
+    <div className="App">
+        <footer>
+        <Container fluid>
+        <div className = 'hoopersorange'>
+          {/* <Row xs={5}>
+            <Col xs={4}> */}
+              <div className='email-address'>
+             <b>get in touch</b><br></br>
+            info@hoopers.club 
+              </div>
+        
 
+              <div className = 'location'>
+            <p><b> address</b> <br></br>
+              Rus da Prata,80,1, 1100-420 <br></br>
+              Lisboa,Portugal
+              </p> 
+              </div>
+            {/* </Col>
+          </Row> */}
+         {/* <Row className = 'social media text-center'>
+           <Col xs={8}> */}
+        <div className= 'social-media'>
+           <b>follow us</b><br></br>
+          <nav>
+            <a href='#instagram'>instagram</a><br></br>
+            <a href='#youtube'>youtube</a><br></br>
+            <a href='#twitter'>twitter</a><br></br>
+            <a href='#facebook'>facebook</a><br></br>
+            <a href='#spotify'>spotify</a>
+          </nav>
+         </div>
 
-class App extends Component {
-  render() {
-    return (
-<div className = 'App'>
-       
-          
-        <video autoPlay loop muted
-        style= {{
-            position:'absolute',
-            width:'100vw',
-            left:'50%',
-             top:'50%',
-            height:'100vh',
-            objectFit:'cover',
-            transform:'translate(-50%,-50%)',
-            zIndex:'-1'
-        }}>
-          <source src={Video} type='video/mp4' />
-          </video>
-          <div className = 'VideoButton'>
-          <button type="button" className="btn btn-warning btn-lg">WATCH VIDEO</button>
-          </div>
-          <div className='ShopLink '>
-          <a href="#" className="link">SHOP</a>
-          </div>
-          <div className = 'PTLink'>
-          <a href="#" className="link">PT</a>
-          </div>
-        <div className = 'container'>
-          {/* <form>
-            <div className= 'input-group'>
-              <input type ='text' className='box' placeholder='Search'></input>
-                <button className='btn btn-dark' type = 'button'>
-                  Button
-                </button>
-               
-              
+                {/* <div className ='other'>
+                    <p>
+                      careers at hoopers <br></br>
+                      terms and conditions <br></br>
+                      privacy policy <br></br>
+                      cookies policy <br></br>
+                      about us
+                    </p>
+               </div> */}
+
+              {/* <div className='subscribe'>
+                <p>
+                join our mailing list <br></br></p>
+              </div> */}
+            </Container>
             </div>
-          </form> */}
-          <div className='search'>
-            
+          </footer>
           </div>
 
-        </div>
+
           
-</div>
-    )
-  }
+          
+        
+        
+);
 }
-
-
-
-
 
 export default App;
