@@ -1,0 +1,107 @@
+.button {
+  position:absolute;
+  left:2000px;
+  top:500px;
+}
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* .Container {
+  position:relative;
+  height:100%;
+  overflow:hidden;
+} */
+
+/* video { */
+  /* width:100%;
+  height:120vh;
+  overflow: hidden;
+} */
+
+
+
+.VideoButton {
+  position: relative;
+  left: 15px;
+  top:625px;
+  text-align: center;
+ 
+}
+
+.ShopLink{
+  position:relative;
+  left:600px;
+  top:-23px;
+  font-size:18px;
+  font-weight: bold;
+  
+  
+}
+a{
+  text-decoration: none;
+  color:#D48832;
+}
+
+.PTLink {
+  position:relative;
+  left:650px;
+  top:-49px;
+  font-size:18px;
+  font-weight:bold;
+}
+
+/* .input-group{
+  position:absolute;
+  left:1100px;
+  top:625px;
+}
+input{
+  border:7px solid black;
+  height:50px;
+  width:310px;
+} */
+
+.search {
+  position:absolute;
+  left:1100px;
+  top:625px;
+  transform: translate(-50%,-50%);
+}
