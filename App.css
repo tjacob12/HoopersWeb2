@@ -50,53 +50,20 @@
 
 }
 
-.email-address{
-  position:relative;
-  left:-500px;
-  top:70px;
+input {
+  border-top-style: hidden;
+  border-right-style:hidden;
+  border-left-style: hidden;
+  border-bottom-style:groove;
+  background-color:#d48832;
+  outline: none ;
 }
 
-.location{
-  position:relative;
-  left:-500px;
-  top:100px;
+
+::placeholder
+{
+  color:white;
+}
+
+ 
   
-}
-
-.social-media {
-  position:relative;
-  left: -200px;
-  top:-70px;
-  
-  align-items:center;
-  
-  margin:auto;
-}
-
-a{
-  text-decoration: none;
-  font-family:'Aktiv Grotesk';
-  color:black;
-  font-size:18px;
-}
-a:after{
-  content:'';
-  position:absolute;
-  background-color:black;
-  height:3px;
-  width:150px;
-  left:738px;
-  bottom:-10px;
-}
-
-.other{
-  position:relative;
-  left:100px;
-  top:-210px;
-}
-
-.subscribe{
-  position:relative;
-  left:400px;
-  top:-348px;
-}
